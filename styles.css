@@ -84,22 +84,10 @@ header main{
     
 
 }
-@media screen and (max-width: 768px) {
+/* Adjust the max-height for smaller screens if needed */
+@media screen and (max-width: 1000px) {
     .main-video {
-        width: 100%; /* Adjust the width to fill the entire screen */
-        height: auto; /* Allow the height to adjust proportionally */
-        max-height: 50vh; /* Adjust the value based on your design preference */
-	    object-fit: cover;
-    }
-}
-
-/* Add this media query if you want to control the height for even smaller screens */
-@media screen and (max-width: 500px) {
-    .main-video {
-        width: 100%; /* Adjust the width to fill the entire screen */
-        height: auto; /* Allow the height to adjust proportionally */
-        max-height: 30vh; /* Adjust the value based on your design preference */
-	    object-fit: cover;
+        width: auto;
     }
 }
 /* NavBar */

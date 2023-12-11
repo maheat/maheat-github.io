@@ -87,6 +87,7 @@ header main{
 /* Adjust the max-height for smaller screens if needed */
 @media screen and (max-width: 768px) {
     .main-video {
+	width: 768px;
         max-height: 50vh; /* Adjust the value based on your design preference */
     }
 }
@@ -94,6 +95,7 @@ header main{
 /* Add this media query if you want to control the height for even smaller screens */
 @media screen and (max-width: 500px) {
     .main-video {
+	width: 500px;
         max-height: 30vh; /* Adjust the value based on your design preference */
     }
 }

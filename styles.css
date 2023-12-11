@@ -89,6 +89,7 @@ header main{
         width: 100%; /* Adjust the width to fill the entire screen */
         height: auto; /* Allow the height to adjust proportionally */
         max-height: 50vh; /* Adjust the value based on your design preference */
+	    object-fit: cover;
     }
 }
 
@@ -98,6 +99,7 @@ header main{
         width: 100%; /* Adjust the width to fill the entire screen */
         height: auto; /* Allow the height to adjust proportionally */
         max-height: 30vh; /* Adjust the value based on your design preference */
+	    object-fit: cover;
     }
 }
 /* NavBar */

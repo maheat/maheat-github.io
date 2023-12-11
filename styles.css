@@ -84,7 +84,19 @@ header main{
     
 
 }
+/* Adjust the max-height for smaller screens if needed */
+@media screen and (max-width: 768px) {
+    .main-video {
+        max-height: 50vh; /* Adjust the value based on your design preference */
+    }
+}
 
+/* Add this media query if you want to control the height for even smaller screens */
+@media screen and (max-width: 500px) {
+    .main-video {
+        max-height: 30vh; /* Adjust the value based on your design preference */
+    }
+}
 /* NavBar */
 nav.container, .header-body .container{
     padding: 1.65em 2.5em;
